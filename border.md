@@ -5,7 +5,7 @@
 
 |     属性     |       描述       |                     取值                     | JS属性 | 继承性 | 动画性 | 适用于 |
 |:------------:|:----------------:|:--------------------------------------------:|:------:|:------:|:------:|:------:|
-|    border    | 边框。复合属性   | <border-width> <border-style> <border-color> | border |    ×   |    ※   |    *   |
+|    border    | 边框。复合属性   | border-width  border-style border-color | border |    ×   |    ※   |    *  lt |
 | border-width | 边框宽度（厚度） |                                              |        |    ×   |    √   |        |
 | border-style | 边框样式         |                                              |        |        |        |        |
 | border-color | 边框颜色         |                                              |        |        |        |        |
