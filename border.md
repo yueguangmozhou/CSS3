@@ -1,14 +1,14 @@
 ## http://www.tablesgenerator.com/markdown_tables#
 
-※ 看每个独立属性   * 所有元素
+※ 看每个独立属性   * 所有元素   JS属性：驼峰式写法，如border,borderWidth
 
 
-|     属性     |       描述       |                     取值                     | JS属性 | 继承性 | 动画性 | 适用于 |
+|     属性     |       描述       |                     取值                     | 继承性 | 动画性 | 适用于 |
 |:------------:|----------------|--------------------------------------------|:------:|:------:|:------:|:------:|
-|    border    | 边框。复合属性   |border-width  border-style border-color| border |    ×   |    ※   |    *    |
+|    border    | 边框。复合属性   |border-width  border-style border-color|    ×   |    ※   |    *    |
 | border-width | 边框宽度（厚度） | <br/>&lt;length&gt;：长度值。不允许负值<br/><br/>  medium：默认厚度.计算值为3px<br/><br/>   thin：比默认厚度细。计算值为1px<br/><br/>  thick：比默认厚度粗。计算值为5px                                             |        |    ×   |    √   |        |
-| border-style | 边框样式         |                                              |        |        |        |        |
-| border-color | 边框颜色         |                                              |        |        |        |        |
+| border-style | 边框样式         |                                              |           |        |        |
+| border-color | 边框颜色         |                                              |           |        |        |
 
 
 
