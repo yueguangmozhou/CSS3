@@ -5,8 +5,7 @@
 ## background
 
 <br>
-
-> **语法：**
+### 语法
 
 ```
 background: <bg-color> <bg-image> <bg-position>/<bg-size> <bg-repeat> <bg-origin> <bg-clip> <bg-attachment> |inherit;
@@ -22,7 +21,7 @@ background: <bg-color> <bg-image> <bg-position>/<bg-size> <bg-repeat> <bg-origin
 
 <br>
 
-> **说明：**
+### 说明
 
 检索或设置对象的背景。**复合属性。**
 
@@ -34,10 +33,11 @@ background: <bg-color> <bg-image> <bg-position>/<bg-size> <bg-repeat> <bg-origin
 
 <br>
 
+### 示例
 
-> **示例：** 假设要在同一个元素上定义3个背景图像
+> 假设要在同一个元素上定义3个背景图像
 
-缩写方式：
+1、缩写方式：
 ```
 background: #aaa
             url(test1.jpg) no-repeat scroll 10px 20px/50px 60px content-box padding-box,
@@ -48,7 +48,7 @@ background: #aaa
 注意：①<' [background-color](http://www.css88.com/book/css/properties/background/background-color.htm) '> 只能设置一次;
       ②由于写在前面的背景会叠在之后的背景之上，所以建议将背景色定义在最后一组上，避免背景色将图像盖住。
 
-拆分方式：
+1.1、拆分方式：
 ```
 background-image:url(test1.jpg),url(test2.jpg),url(test3.jpg);
 background-repeat:no-repeat,no-repeat,no-repeat;
@@ -63,7 +63,7 @@ background-color:#aaa;
 当定义了多个背景图片，而其他属性只有一个参数值，则表明所有背景图片的该属性都应用同一个参数值。
 可以对上面的例子进行缩写：
 
-拆分的缩写：
+1.2、拆分的缩写：
 ```
 background-image:url(test1.jpg),url(test2.jpg),url(test3.jpg);
 background-repeat:no-repeat;
@@ -78,10 +78,8 @@ background-color:#aaa;
 &nbsp;
 
 -------------------
-
-
-
 <br>
+
 
 ## background-color
 
