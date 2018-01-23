@@ -22,6 +22,8 @@ background: <bg-color> <bg-image> <bg-position>/<bg-size> <bg-repeat> <bg-origin
 
 <br>
 
+> background: <bg-color> <bg-image> <bg-position>/<bg-size> <bg-repeat> <bg-origin> <bg-clip> <bg-attachment> |inherit;
+
 > **说明：**
 
 检索或设置对象的背景。**复合属性。**
