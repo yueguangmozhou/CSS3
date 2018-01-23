@@ -4,8 +4,6 @@
 
 ## background
 
-<br>
-
 ### 语法
 
 ```
